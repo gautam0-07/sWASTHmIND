@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to SwasthMind"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track Mood"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnChatbot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat with Bot" />
+
+</LinearLayout>
